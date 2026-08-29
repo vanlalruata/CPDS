@@ -100,5 +100,3 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a && ./tmp/a; done
 
 ---
 
-*Prepared by Dr. Vanlalruata Hnamte, Department of Mathematics and Computer Science,
-Mizoram University.*
