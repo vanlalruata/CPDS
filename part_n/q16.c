@@ -73,7 +73,8 @@ struct Node *deleteByValue(struct Node *head, int key)
     return head;
 }
 
-/* Delete every node whose data == key; returns count of removed nodes. */
+/* Delete every node whose data == key; returns the new head and
+   reports how many nodes were removed through *removed. */
 struct Node *deleteAllByValue(struct Node *head, int key, int *removed)
 {
     struct Node *cur = head, *prev = NULL, *tmp;
