@@ -86,8 +86,9 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a && ./tmp/a; done
 | `part_s` | Trees | 30 |
 | `part_t` | Integrated practical questions | 30 |
 | `part_u` | Debugging / output-based | 30 |
-| `part_v` | High-value practical exam questions | 10 |
-| **Total** | | **639** |
+| `part_v` | High-value practical exam questions + memory management | 25 |
+| `part_w` | Algorithm complexity (advanced) + Trees (advanced) | 50 |
+| **Total** | | **704** |
 
 ## Detailed Question Numbering
 
@@ -773,7 +774,7 @@ Each file shows the original BUGGY code (commented), the corrected program, and 
 29. Incorrect tree traversal
 30. Output of pointers+arrays program
 
-### `part_v` — High-Value Practical Exam Questions (q1–q10)
+### `part_v` — High-Value Practical Exam Questions + Memory Management (q1–q25)
 1. Factorial using function
 2. Prime using function
 3. Array maximum/minimum
@@ -784,6 +785,80 @@ Each file shows the original BUGGY code (commented), the corrected program, and 
 8. Structure-based student record
 9. Dynamic array using malloc()
 10. Stack using array
+11. malloc single integer (read/print/free)
+12. malloc array of integers (sum/average/free)
+13. malloc array of floats (average/free)
+14. calloc array of integers (zero-initialization demo)
+15. malloc vs calloc experimental comparison
+16. realloc to grow an array (preserve old data)
+17. realloc to shrink an array
+18. Dynamic 2D matrix (int **) using malloc
+19. Dynamic 2D matrix using calloc (input/display/transpose)
+20. free() and setting pointer to NULL afterwards
+21. Identify and correct a memory leak
+22. Identify and correct use-after-free
+23. Identify and correct double-free
+24. Dynamic array of strings (char **) with free
+25. Dynamic integer list grown with realloc in a loop
+
+### `part_w` — Algorithm Complexity (Advanced) + Trees (Advanced) (q1–q50)
+**Algorithm Complexity (q1–q22):**
+1. Big-O definition + demonstration on f(n)=3n+2
+2. Big-Ω (Omega) lower bound + demonstration
+3. Big-Θ (Theta) tight bound + demonstration
+4. Linear search: best/avg/worst comparison counts
+5. Binary search: best/avg/worst comparison counts
+6. Bubble sort: best/avg/worst comparisons and swaps
+7. Insertion sort: best/avg/worst comparisons
+8. Quick sort (Lomuto): best/avg/worst comparisons
+9. Analyze a single loop (sum 1..N) — O(n) time, O(1) space
+10. Analyze two nested loops — O(n^2)
+11. Analyze three nested loops (naive matrix multiply) — O(n^3)
+12. Analyze a logarithmic loop (n/=2) — O(log n)
+13. Analyze a linear while loop
+14. Recursive factorial with step counter — T(n)=T(n-1)+c
+15. Recursive Fibonacci with call counter — O(2^n)
+16. Binary search recurrence T(n)=T(n/2)+c
+17. Time vs auxiliary space: bubble sort (O(1) extra)
+18. Time vs auxiliary space: merge sort (O(n) extra)
+19. Growth rates table: log n, n, n log n, n^2, 2^n
+20. Operation counter on linear search (best/avg/worst)
+21. Amortized analysis: dynamic array doubling
+22. Identify complexity class of given snippets
+
+**Tree Terminology & Binary Trees (q23–q37):**
+23. Tree terminology on a built tree (root/leaves/internal/edges/depth/height/subtrees)
+24. Binary tree representation using linked nodes
+25. Build a binary tree interactively
+26. Preorder traversal
+27. Inorder traversal
+28. Postorder traversal
+29. Level-order traversal (using a queue)
+30. Count total nodes
+31. Count leaf nodes
+32. Count internal nodes
+33. Height of a binary tree
+34. Depth of a given node
+35. Maximum and minimum element
+36. Search for an element
+37. Mirror image of a binary tree
+
+**Binary Search Trees (q38–q47):**
+38. BST insert
+39. BST search
+40. BST delete (0/1/2 children + inorder successor)
+41. Minimum in BST
+42. Maximum in BST
+43. Inorder predecessor
+44. Inorder successor
+45. kth smallest element
+46. kth largest element
+47. Height of BST + relation between height and performance
+
+**Applications & Comparison (q48–q50):**
+48. Applications of trees: expression tree evaluation
+49. Comparison table: Array vs Linked List vs Stack vs Queue vs Tree
+50. Menu-driven data-structure advisor
 
 ## Notes for Students
 
