@@ -45,7 +45,7 @@ This question bank is organized to follow the two-unit syllabus.
 
 ## How To Use
 
-The programs are grouped into folders `part_a` through `part_v`. Inside each folder the
+The programs are grouped into folders `part_a` through `part_x`. Inside each folder the
 programs are named `q1.c`, `q2.c`, … in the same order as the questions listed below.
 
 To compile a single program:
@@ -88,7 +88,8 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a && ./tmp/a; done
 | `part_u` | Debugging / output-based | 30 |
 | `part_v` | High-value practical exam questions + memory management | 25 |
 | `part_w` | Algorithm complexity (advanced) + Trees (advanced) | 50 |
-| **Total** | | **704** |
+| `part_x` | File I/O (Input/Output system) | 60 |
+| **Total** | | **764** |
 
 ## Detailed Question Numbering
 
@@ -859,6 +860,68 @@ Each file shows the original BUGGY code (commented), the corrected program, and 
 48. Applications of trees: expression tree evaluation
 49. Comparison table: Array vs Linked List vs Stack vs Queue vs Tree
 50. Menu-driven data-structure advisor
+
+### `part_x` — File I/O / Input-Output System (q1–q60)
+1. Write a character using fputc
+2. Read a character using fgetc
+3. Read characters until EOF with fgetc; count
+4. getc and putc macros
+5. getchar and putchar
+6. ungetc
+7. Write a string using fputs
+8. Read lines using fgets (and note unsafe gets)
+9. puts to stdout
+10. fopen modes: r, w, a, r+, w+, a+
+11. Display entire file char-by-char
+12. Copy a file char-by-char (fgetc/fputc)
+13. Copy a file via fread/fwrite blocks
+14. Count characters, words, and lines (wc-like)
+15. fprintf formatted output to file
+16. fscanf formatted input from file
+17. printf family (printf / fprintf / perror)
+18. scanf family (scanf / fscanf / sscanf)
+19. sprintf and sscanf
+20. snprintf safe formatting
+21. fwrite array of structures (binary)
+22. fread array of structures (binary)
+23. fseek, ftell, rewind
+24. fgetpos and fsetpos
+25. Update a record in a binary file (random access)
+26. Search a record in a binary file
+27. Delete a record from a binary file (rewrite)
+28. feof: correct EOF-checking pattern
+29. ferror
+30. clearerr
+31. fflush
+32. setvbuf and setbuf (buffering modes)
+33. freopen (redirect stdout to a file)
+34. tmpfile (temporary binary file)
+35. tmpnam (with portability warning)
+36. remove (delete a file)
+37. rename a file
+38. perror
+39. strerror and errno
+40. Text vs binary mode
+41. Append to a file (mode "a")
+42. Read entire file into a dynamic buffer
+43. Merge two files into a third
+44. Split a file at a given line
+45. Reverse file contents
+46. Find and replace a word in a file
+47. Count word/character occurrences in a file
+48. Persistent student records (binary file)
+49. Simple phonebook using a text file
+50. CSV reader
+51. Logger with timestamps (strftime + fprintf)
+52. File size via fseek/ftell
+53. Command-line file processor (argc/argv)
+54. vsnprintf / vfprintf (va_list)
+55. Directory listing (opendir / readdir / closedir, POSIX dirent.h)
+56. Compare two files (diff-like)
+57. XOR file encrypt/decrypt
+58. Hex dump of a file
+59. Chunked file processing
+60. Complete student record system with file persistence
 
 ## Notes for Students
 
