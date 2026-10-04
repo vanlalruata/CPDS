@@ -45,20 +45,29 @@ This question bank is organized to follow the two-unit syllabus.
 
 ## How To Use
 
-The programs are grouped into folders `part_a` through `part_x`. Inside each folder the
-programs are named `q1.c`, `q2.c`, … in the same order as the questions listed below.
+The programs are grouped into folders `part_a` through `part_x`. Inside each folder:
+- **Core practical programs** are named with a zero-padded question number followed by a descriptive topic in snake_case (e.g., `01_largest_of_two.c`, `02_largest_of_three.c`, …) matching the syllabus question order below.
+- **Bonus summary program**: Every folder contains a comprehensive `bonus_menu_driven.c` program that interactively tests and demonstrates all major concepts of that part.
+- **Supplementary extra programs**: Folders `part_n` and `part_t` include advanced teaching scaffold programs prefixed with `extra_NN_*.c` (e.g. `extra_01_very_simple_linked_list.c`, `extra_01_number_to_words_rupees.c`).
 
 To compile a single program:
 
 ```bash
-gcc part_b/q1.c -o part_b/q1
-./part_b/q1
+gcc part_b/01_arithmetic_operations.c -o part_b/app -lm
+./part_b/app
 ```
 
-To compile and run every program in a folder (Linux/macOS):
+To compile and run the comprehensive bonus menu-driven workbench for any folder:
 
 ```bash
-for f in part_b/*.c; do gcc "$f" -o /tmp/a && ./tmp/a; done
+gcc part_a/bonus_menu_driven.c -o part_a/bonus -lm
+./part_a/bonus
+```
+
+To compile and test all programs in a folder (Linux/macOS):
+
+```bash
+for f in part_b/*.c; do gcc "$f" -o /tmp/a -lm && ./tmp/a; done
 ```
 
 ## Folder / Question Index
