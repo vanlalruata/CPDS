@@ -5,7 +5,9 @@ A comprehensive, exam-oriented practical question bank with complete, compilable
 ## Course
 
 **Practical resource for:**
+- BCA
 - MCA
+- B.Sc. (IT/CS/Maths)
 - M.Sc. (Mathematics)
 - B.Tech. (CSE)
 - B.Tech. (IT)
@@ -14,7 +16,7 @@ A comprehensive, exam-oriented practical question bank with complete, compilable
 - M.Tech. (ECE)
 - (and related programmes)
 
-**Offered by:** Mizoram University
+**Offered by:** Mizoram University and Others
 
 **Prepared by:** Dr. Vanlalruata Hnamte  
 **Department of Mathematics and Computer Science**  
@@ -22,7 +24,7 @@ A comprehensive, exam-oriented practical question bank with complete, compilable
 
 ## Syllabus Coverage
 
-This question bank is organized to follow the two-unit syllabus.
+This program code / question bank is organized to follow the two-unit syllabus.
 
 ### Unit I — 15 Hours
 - Flow-chart concepts
