@@ -86,8 +86,8 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a -lm && ./tmp/a; done
 | `part_j` | Dynamic memory allocation | 35 |
 | `part_k` | Structures | 35 |
 | `part_l` | Union | 20 |
-| `part_m` | Algorithm complexity | 25 |
-| `part_n` | Linked list (singly + circular) | 50 |
+| `part_m` | Algorithm complexity | 36 |
+| `part_n` | Linked list (singly + circular + search algorithms) | 61 |
 | `part_o` | Doubly linked list | 25 |
 | `part_p` | Stack (array + linked list) | 45 |
 | `part_q` | Queue | 20 |
@@ -98,7 +98,7 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a -lm && ./tmp/a; done
 | `part_v` | High-value practical exam questions + memory management | 25 |
 | `part_w` | Algorithm complexity (advanced) + Trees (advanced) | 50 |
 | `part_x` | File I/O (Input/Output system) | 60 |
-| **Total** | | **764** |
+| **Total** | | **786** |
 
 ## Detailed Question Numbering
 
@@ -480,7 +480,7 @@ for f in part_b/*.c; do gcc "$f" -o /tmp/a -lm && ./tmp/a; done
 19. Practical union use case (tagged variant)
 20. Compare memory: struct vs union design
 
-### `part_m` — Algorithm Complexity (q1–q25)
+### `part_m` — Algorithm Complexity (q1–q36)
 Each file documents algorithm, TIME COMPLEXITY, and AUXILIARY SPACE.
 1. Linear search
 2. Binary search
@@ -507,8 +507,19 @@ Each file documents algorithm, TIME COMPLEXITY, and AUXILIARY SPACE.
 23. Analyze single loop
 24. Analyze nested loops
 25. Analyze three nested loops
+26. Depth-First Search (DFS)
+27. Breadth-First Search (BFS)
+28. Best-First Search
+29. Uniform-Cost Search
+30. Depth-Limited Search
+31. Iterative Deepening DFS
+32. Bidirectional Search
+33. Dijkstra's Algorithm
+34. A* Search
+35. Bidirectional Dijkstra
+36. Bidirectional A*
 
-### `part_n` — Linked List (q1–q50)
+### `part_n` — Linked List (q1–q61)
 **Singly Linked List (q1–q30):**
 1. Create list
 2. Display list
@@ -562,6 +573,19 @@ Each file documents algorithm, TIME COMPLEXITY, and AUXILIARY SPACE.
 48. Check whether list is circular
 49. Convert singly → circular
 50. Circular queue using linked list
+
+**Search Algorithms on Linked Lists (q51–q61):**
+51. DFS on linked list
+52. BFS on linked list
+53. Best-First Search on linked list
+54. Uniform-Cost Search on linked list
+55. Depth-Limited Search on linked list
+56. Iterative Deepening DFS on linked list
+57. Bidirectional BFS on linked list
+58. Bidirectional Dijkstra on linked list
+59. (Reserved)
+60. A* Search on linked list
+61. Bidirectional A* on linked list
 
 ### `part_o` — Doubly Linked List (q1–q25)
 1. Create list
